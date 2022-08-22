@@ -1,5 +1,5 @@
-.contenedorMain{
-    background-color: aqua;
-    height: 80px;
+.containerSaludo p{
+    text-align: center;
+    margin-top: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
