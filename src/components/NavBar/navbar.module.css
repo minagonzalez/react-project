@@ -4,21 +4,34 @@
     box-sizing: border-box;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0px 10px;
+}
 
 .logoNavbar{
     margin: 20px;
-    float: left;
 }
 
 .ulNavbar{
-    float: right;
     margin: 20px;
 }
 
-.ulNavbar li{
+/* .ulNavbar li{
     display: inline-block;
     padding: 10px;
-}
+} */
 
 .ulNavbar a{
     color: black;

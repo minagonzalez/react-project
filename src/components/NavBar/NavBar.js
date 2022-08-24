@@ -4,7 +4,7 @@ import estilos from './navbar.module.css';
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className={estilos.nav}>
             <div className={estilos.logoNavbar}>
                 <h2>Mina Ecommerce</h2>
             </div>
