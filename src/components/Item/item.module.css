@@ -1,0 +1,9 @@
+.imgProduct{
+    width: 100%;
+}
+
+.productCont{
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+}
