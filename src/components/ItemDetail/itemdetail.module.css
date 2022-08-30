@@ -1,0 +1,10 @@
+.detailDiv{
+    text-align: center;
+    margin: 60px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans-serif';
+}
+
+.detailDiv img{
+    width: 30%;
+    margin: 20px 0;
+}
