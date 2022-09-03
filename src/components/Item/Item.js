@@ -1,4 +1,6 @@
 import estilos from './item.module.css';
+import { Link } from 'react-router-dom';
+// import { products } from '../../mock/products';
 
 const Item = ( { item } ) => {
 
@@ -9,6 +11,7 @@ const Item = ( { item } ) => {
         <p>Precio: ${item.price}.-</p>
         <p>Categoria: {item.category}</p>
         <p>Stock: {item.stock}</p>
+        <Link to={`/item/${item.id}`}>Ver Detalle</Link>
     </div>
     )
 }

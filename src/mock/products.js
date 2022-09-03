@@ -10,20 +10,20 @@ export const products = [
     },
     {
         id: 2,
-        title: 'Zapatillas Rojas',
-        description: 'Zapatillas rojas de cuero',
+        title: 'Gorras',
+        description: 'Gorras rojas de cuero',
         price: 300,
         stock: 50,
-        category: 'zapatillas',
+        category: 'gorras',
         img: 'https://res.cloudinary.com/dpewlpb1h/image/upload/v1661732943/cld-sample-4.jpg'
     },
     {
         id: 3,
-        title: 'Zapatillas Negras',
-        description: 'Zapatillas negras de cuero',
+        title: 'Remeras Negras',
+        description: 'Remeras manga corta',
         price: 100,
         stock: 10,
-        category: 'zapatillas',
+        category: 'remeras',
         img: 'https://res.cloudinary.com/dpewlpb1h/image/upload/v1661732942/cld-sample-3.jpg'
     }
 ]
