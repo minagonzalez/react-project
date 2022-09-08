@@ -4,7 +4,7 @@ export const products = [
         title: 'Zapatillas Blancas',
         description: 'Zapatillas blancas de cuero',
         price: 200,
-        stock: 150,
+        stock: 15,
         category: 'zapatillas',
         img: 'https://res.cloudinary.com/dpewlpb1h/image/upload/v1661732943/cld-sample-5.jpg'
     },
@@ -13,7 +13,7 @@ export const products = [
         title: 'Gorras',
         description: 'Gorras rojas de cuero',
         price: 300,
-        stock: 50,
+        stock: 5,
         category: 'gorras',
         img: 'https://res.cloudinary.com/dpewlpb1h/image/upload/v1661732943/cld-sample-4.jpg'
     },
