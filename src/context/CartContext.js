@@ -63,9 +63,16 @@ const CartProvider = ({ children }) => {
         return acumulador;
     };
 
+    const totalItems = () => {
+        let acumulador = 0;
+        cart.forEach((prod) => {
+            acumulador += prod.cantidad;
+        });
+        return acumulador;
+    };
 
     return(
-        <CartContext.Provider value={{ cart, addToCart, clear, addItem, removeItem, totalPrice}}>
+        <CartContext.Provider value={{ cart, addToCart, clear, addItem, removeItem, totalPrice, totalItems}}>
             { children }
         </CartContext.Provider>
     )
